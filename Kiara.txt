@@ -30,3 +30,16 @@ git commit -m "mensaje del commit"
 
 ¿Qué es un commit?
 Un commit es un "punto de control" en el historial de cambios de un proyecto. Guarda una instantánea de los archivos agregados, junto con un mensaje que describe los cambios.
+
+
+Practicas
+
+3.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sandwich.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
