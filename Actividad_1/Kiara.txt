@@ -1,0 +1,45 @@
+Preguntas
+
+¿Cómo se inicializa un repositorio local?
+
+git init
+
+Este comando convierte el directorio actual en un repositorio Git vacío (local).
+
+¿Cómo hago para que un directorio deje de ser controlado por Git?
+
+rm -rf .git
+
+Esto elimina el repositorio Git local (la carpeta .git). Todo el historial se pierde, pero los archivos quedan.
+
+Si agrego un archivo a un directorio que ya está siendo controlado por Git, ¿está siendo controlado por Git?
+
+No de forma automática. Git detecta el archivo, pero no lo versiona hasta que se ejecute git add.
+
+¿Qué comando se utiliza para agregar un archivo al repositorio local?
+
+git add <archivo>
+
+¿Cómo determino qué archivos fueron modificados?
+
+git status
+
+¿Qué comando se utiliza para hacer un commit?
+
+git commit -m "mensaje del commit"
+
+¿Qué es un commit?
+Un commit es un "punto de control" en el historial de cambios de un proyecto. Guarda una instantánea de los archivos agregados, junto con un mensaje que describe los cambios.
+
+
+Practicas
+
+3.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sandwich.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
