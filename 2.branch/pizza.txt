@@ -1,7 +1,5 @@
-oregano
 albahaca
 queso
-anana
-salsa de tomate
-cebolla
+tomate
+jamon
 masa de pizza
