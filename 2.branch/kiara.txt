@@ -31,3 +31,45 @@ Es una etiqueta que marca un punto específico del historial, como una versión 
 
 ¿Cómo se crea un tag?
 git tag -a nombre_del_tag -m "Mensaje"
+
+Practicas
+
+6.
+Observarás una línea de commits separada desde main
+ 
+
+
+10.
+Ahora main tiene un commit nuevo y hay dos ramas divergentes (experimento, anana).
+ 
+
+
+13.
+Observarás que la rama anana se unió con un commit de merge.
+ 
+
+
+15.
+Muestra el merge hecho
+ 
+
+
+16-Me aparece el branch anana
+
+
+18-Me muestra el merge que he hecho con experimento.
+ 
+
+19.
+Merge manual
+
+20.
+Los 2
+ 
+
+23.
+Ninguno
+ 
+
+24.
+Ya no hay branch
